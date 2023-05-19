@@ -1,0 +1,41 @@
+secrets.ts
+
+node_modules
+node_cache
+odd
+never_commit
+
+envTest/localDb/*
+
+envProd/*
+
+envTest/CanaryPuppeteerUserDataDir/*
+envProd/CanaryPuppeteerUserDataDir/*
+
+envTest/StablePuppeteerUserDataDir/*
+envProd/StablePuppeteerUserDataDir/*
+
+!*/nothing.txt
+!nothing.txt
+
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
