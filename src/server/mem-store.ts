@@ -7,6 +7,10 @@ import { SharedBrowserServerUtils } from '../shared-browser-server-utils/shared-
 class _MemStore {
 
   private readonly uBelt = new UtilityBelt('MemStore');
+
+  public async init() {
+    
+  }
   
 }
 
